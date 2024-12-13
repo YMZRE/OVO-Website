@@ -1,0 +1,212 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drake Merchandising</title>
+    <style>
+        :root {
+            --primary-bg:  #5a6773; 
+            --secondary-bg: #2d0e8f; 
+            --accent-color: #1c84e1; 
+            --highlight-color: #ffffff; 
+            --text-main: #5e1961c; 
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+        }
+
+        header {
+            background-color: var(--secondary-bg);
+            color: white;
+            padding: 1em;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            margin: 1em 0;
+        }
+
+        nav a {
+            color: var(--highlight-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        section.hero {
+            text-align: center;
+            padding: 2em;
+            background: linear-gradient(135deg, var(--highlight-color), var(--secondary-bg));
+            color: white;
+        }
+
+        section.hero h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        section.hero p {
+            margin: 1em 0;
+            font-size: 1.2em;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            gap: 1em;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        .card {
+            background-color: var(--highlight-color);
+            border: 2px solid var(--text-main);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            margin: 1em 0;
+            font-size: 1.5em;
+        }
+
+        .card p {
+            margin: 0.5em 1em 1em;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: var(--secondary-bg);
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        section#about {
+            padding: 30px;                             /* Internal space */
+            background: white;                         /* White background */
+            color: var(--text-main);
+            text-align: center;
+            border-radius: 10px;                       /* Rounded corners */
+            box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+            max-width: 800px;                          /* Max width */
+            margin: 2em auto;                          /* Centered */
+        }
+
+        section#about h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            font-family: 'Playfair Display', serif;
+        }
+
+        section#about p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 2em;
+        }
+
+        .profile-container img {
+            border-radius: 80%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>October's Very Own - Drake's Merch'</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#trends">Sign up</a>
+            <a href="https://us.octobersveryown.com/pages/contact//" target="_blank">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="profile-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstSLn_yCOFPQ66fJ17gyaUpHsuE_l3dLNow&s" alt="Profile Picture">
+            <h2>About Drake</h2>
+        </div>
+        <p>Welcome to “Drake's World”, the must-visit site for fans of the famous artist Drake!
+Immerse yourself in the unique universe of this legendary artist, who has left his mark on the world music scene with his hits and unmistakable style. On this site, you'll discover everything that makes Drake so magical</p>
+
+        <p>Drake, real name Aubrey Drake Graham, is a multi-faceted artist who has redefined music and culture over the past two decades. Born in Toronto, Canada, he first made a name for himself as an actor in the TV series Degrassi: The Next Generation, before conquering the music world with his debut project “So Far Gone” in 2009.</p>
+
+        <p>Today, Drake is one of the most influential artists on the global music scene. With iconic albums such as “Take Care”, “Views”, and “Scorpion”, he has accumulated sales records, prestigious awards, and an international fan base. His unique style blends hip-hop, R&B and pop, while exploring new sounds that push the boundaries of musical genres.</p>
+    </section>
+
+    <section id="trends" class="hero">
+        <h2>Explore the world of Drake</h2>
+        <p>Discover merchandising, discography, and immerge yourself in his universe.</p>
+        <!-- Ajout du bouton d'inscription -->
+        <a href="https://2xfz49wiauu.typeform.com/to/RcNsyZUd" style="display: inline-block; background-color: #FF7F11; color: white; padding: 10px 20px; text-align: center; font-family: 'Josefin Sans', sans-serif; text-decoration: none; border-radius: 5px; font-size: 16px;">Sign up !</a>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="https://i.pinimg.com/236x/62/45/f1/6245f1e36f0278f3b5281ef641592cc9.jpg">
+            <h3>New merchandising !</h3>
+            <p>Discover the new merchandising of Drake, following his recent new album.</p>
+        </div>
+        <div class="card">
+            <img src="https://coltchronicle.org/wp-content/uploads/2023/10/drake.jpg" alt="Trend 2">
+            <h3>Discover his discography</h3>
+            <p>Immerge yourself in his long discography</p>
+        </div>
+        <div class="card">
+            <img src="https://wallpapers.com/images/hd/drake-pictures-iwbcpgwrrevr2uk7.jpg" alt="Trend 3">
+            <h3>Best tunes</h3>
+            <p>Remember some of his best tunes.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; October's Very Own - All rights reserved</p>
+    </footer>
+</body>
+
+</html>
